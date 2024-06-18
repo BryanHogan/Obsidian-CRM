@@ -1,0 +1,261 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Miscellaneous/Templates/People Template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "People",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "Active": {
+                "width": 107,
+                "hide": true
+              },
+              "Birthday": {
+                "hide": true
+              },
+              "Social Media": {
+                "hide": true
+              },
+              "aliases": {
+                "hide": true
+              },
+              "Company": {
+                "hide": false
+              },
+              "name": {
+                "hide": false
+              },
+              "E-mail": {
+                "hide": true
+              },
+              "LinkedIn": {
+                "hide": true
+              },
+              "Name": {
+                "hide": true
+              },
+              "Person Tags": {
+                "hide": true
+              },
+              "Phone Number": {
+                "hide": true
+              },
+              "Position": {
+                "hide": true
+              },
+              "Priority": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "Active",
+              "aliases",
+              "Company",
+              "E-mail",
+              "LinkedIn",
+              "Name",
+              "Person Tags",
+              "Phone Number",
+              "Position",
+              "Priority",
+              "Social Media",
+              "Birthday"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ec1fc1ce-f303-41cb-8e72-cb32730bcb32",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "checkField": "",
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2bc84c63-5257-4eec-921f-1046ea0d5ff9",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "e5418634-0ac5-4ba8-bdd2-c756ae3fe4c9",
+      "name": "People"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "{{date:YYYY-MM-DD}} {{time:HH}}{{time:mm}} Meeting",
+      "templates": [
+        "Miscellaneous/Templates/Meetings Template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Meetings",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "Name": {
+                "hide": true
+              },
+              "name": {
+                "width": 221
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Time",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "d543e0e7-2b68-4b72-be5a-9bd51a661194",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "48f104a6-2550-4f8e-9eb2-5030646ae8c8",
+          "name": "Calendar",
+          "type": "calendar"
+        }
+      ],
+      "id": "ccaebf28-2d38-4fcb-bd69-2016c3119502",
+      "name": "Meetings"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Miscellaneous/Templates/Company Template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Companies",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "Name": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c20e22be-d8eb-4234-a786-2cdf111e229c",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "02aae1c9-b33b-47ad-a393-6c7057c75660",
+      "name": "Companies"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [
+      {
+        "project": "ccaebf28-2d38-4fcb-bd69-2016c3119502"
+      },
+      {
+        "project": "e5418634-0ac5-4ba8-bdd2-c756ae3fe4c9"
+      },
+      {
+        "project": "02aae1c9-b33b-47ad-a393-6c7057c75660"
+      }
+    ],
+    "linkBehavior": "open-note"
+  }
+}

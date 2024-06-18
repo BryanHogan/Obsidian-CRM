@@ -1,0 +1,17 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Priority": "checkbox",
+    "Active": "checkbox",
+    "Birthday": "date",
+    "Person Tags": "multitext",
+    "Start": "datetime",
+    "Time": "date",
+    "Date": "date",
+    "Date & Time": "datetime",
+    "Created": "date",
+    "Name": "text"
+  }
+}
